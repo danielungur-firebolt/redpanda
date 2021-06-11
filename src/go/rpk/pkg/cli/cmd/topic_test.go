@@ -18,8 +18,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/require"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/topic"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/kafka/mocks"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/topic"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/kafka/mocks"
 )
 
 type mockClient struct {

@@ -119,13 +119,13 @@ to verify that cert-manager is working correcly.
     export VERSION=v21.4.15
     ```
 
-    **_Note_** - You can find the latest version number of the operator in the [list of operator releases](https://github.com/vectorizedio/redpanda/releases).
+    **_Note_** - You can find the latest version number of the operator in the [list of operator releases](https://github.com/danielungur-firebolt/redpanda/releases).
 
 3. Install the Redpanda operator CRD:
 
     ```
     kubectl apply \
-    -k https://github.com/vectorizedio/redpanda/src/go/k8s/config/crd?ref=$VERSION
+    -k https://github.com/danielungur-firebolt/redpanda/src/go/k8s/config/crd?ref=$VERSION
     ```
 
 4. Install the Redpanda operator on your Kubernetes cluster with:
@@ -150,7 +150,7 @@ Let's try setting up a Redpanda topic to handle a stream of events from a chat a
     kubectl create ns chat-with-me
     ```
 
-2. Install a cluster from [our sample files](https://github.com/vectorizedio/redpanda/tree/dev/src/go/k8s/config/samples), for example the single-node cluster:
+2. Install a cluster from [our sample files](https://github.com/danielungur-firebolt/redpanda/tree/dev/src/go/k8s/config/samples), for example the single-node cluster:
                 
     ```
     kubectl apply \
@@ -158,7 +158,7 @@ Let's try setting up a Redpanda topic to handle a stream of events from a chat a
     -f https://raw.githubusercontent.com/vectorizedio/redpanda/dev/src/go/k8s/config/samples/one_node_cluster.yaml
     ```
 
-    You can see the resource configuration options in the [cluster_types file](https://github.com/vectorizedio/redpanda/blob/dev/src/go/k8s/apis/redpanda/v1alpha1/cluster_types.go).
+    You can see the resource configuration options in the [cluster_types file](https://github.com/danielungur-firebolt/redpanda/blob/dev/src/go/k8s/apis/redpanda/v1alpha1/cluster_types.go).
 
 3. Use `rpk` to work with your Redpanda nodes, for example:
 

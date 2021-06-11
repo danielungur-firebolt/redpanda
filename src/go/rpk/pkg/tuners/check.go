@@ -16,8 +16,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/afero"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/config"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/redpanda"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/config"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/redpanda"
 )
 
 func Check(

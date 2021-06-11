@@ -13,9 +13,9 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/cluster"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/common"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/config"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/cluster"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/common"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/config"
 )
 
 func NewClusterCommand(fs afero.Fs, mgr config.Manager) *cobra.Command {

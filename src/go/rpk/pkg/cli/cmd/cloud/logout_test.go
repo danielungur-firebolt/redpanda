@@ -14,8 +14,8 @@ import (
 
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/require"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/cloud"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/vcloud/config"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/cloud"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/vcloud/config"
 )
 
 func TestLogout(t *testing.T) {

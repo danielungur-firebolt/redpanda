@@ -275,7 +275,7 @@ ss::future<> segment_appender::truncate(size_t n) {
             // keep any old state/pointers/sizes, etc
             _head->reset();
         } else {
-            // https://github.com/vectorizedio/redpanda/issues/43
+            // https://github.com/danielungur-firebolt/redpanda/issues/43
             f = internal::chunks().get().then(
               [this](ss::lw_shared_ptr<chunk> chunk) {
                   _head = std::move(chunk);

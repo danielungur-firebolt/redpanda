@@ -15,7 +15,7 @@ import (
 
 	"github.com/lestrrat-go/jwx/jwa"
 	"github.com/lestrrat-go/jwx/jwt"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/vcloud"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/vcloud"
 )
 
 const (

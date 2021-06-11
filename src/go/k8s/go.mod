@@ -1,4 +1,4 @@
-module github.com/vectorizedio/redpanda/src/go/k8s
+module github.com/danielungur-firebolt/redpanda/src/go/k8s
 
 go 1.16
 
@@ -12,7 +12,7 @@ require (
 	github.com/prometheus/client_golang v1.10.0
 	github.com/spf13/afero v1.2.2
 	github.com/stretchr/testify v1.7.0
-	github.com/vectorizedio/redpanda/src/go/rpk v0.0.0-00010101000000-000000000000
+	github.com/danielungur-firebolt/redpanda/src/go/rpk v0.0.0-00010101000000-000000000000
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	k8s.io/api v0.19.2
 	k8s.io/apimachinery v0.19.2
@@ -21,4 +21,4 @@ require (
 	sigs.k8s.io/controller-runtime v0.7.2
 )
 
-replace github.com/vectorizedio/redpanda/src/go/rpk => ../rpk
+replace github.com/danielungur-firebolt/redpanda/src/go/rpk => ../rpk

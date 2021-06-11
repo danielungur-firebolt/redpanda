@@ -12,7 +12,7 @@ package cmd
 import (
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/cloud"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/cloud"
 )
 
 func NewCloudCommand(fs afero.Fs) *cobra.Command {

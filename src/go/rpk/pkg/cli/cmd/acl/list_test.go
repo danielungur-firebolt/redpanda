@@ -17,7 +17,7 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/kafka/mocks"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/kafka/mocks"
 )
 
 func TestNewListACLsCommand(t *testing.T) {

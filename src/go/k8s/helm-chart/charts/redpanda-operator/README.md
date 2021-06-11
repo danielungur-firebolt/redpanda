@@ -23,7 +23,7 @@ discovered.
 1. Install Redpanda operator CRDs:
 
 ```sh
-kubectl apply -k 'https://github.com/vectorizedio/redpanda/src/go/k8s/config/crd?ref=v21.3.4'
+kubectl apply -k 'https://github.com/danielungur-firebolt/redpanda/src/go/k8s/config/crd?ref=v21.3.4'
 ```
 
 > The CRDs are decoupled from helm chart, so that helm release can be
@@ -65,7 +65,7 @@ Other instruction will be visible after installation.
 | config.webhook.port | int | `9443` |  |
 | fullnameOverride | string | `""` | Override the fully qualified app name |
 | image.pullPolicy | string | `"IfNotPresent"` | Define the pullPolicy for Redpanda Operator image |
-| image.repository | string | `"vectorized/redpanda-operator"` | Repository that Redpanda Operator image is available |
+| image.repository | string | `"danielungur/redpanda-operator"` | Repository that Redpanda Operator image is available |
 | image.tag | string | `"{{ .Chart.AppVersion }}"` | Define the Redpanda Operator container tag |
 | imagePullSecrets | list | `[]` | Redpanda Operator container registry pullSecret (ex: specify docker registry credentials) |
 | labels | string | `nil` | Allows to assign labels to the resources created by this helm chart |

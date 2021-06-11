@@ -13,7 +13,7 @@ package certmanager
 
 import (
 	cmmeta "github.com/jetstack/cert-manager/pkg/apis/meta/v1"
-	"github.com/vectorizedio/redpanda/src/go/k8s/pkg/resources"
+	"github.com/danielungur-firebolt/redpanda/src/go/k8s/pkg/resources"
 	"k8s.io/apimachinery/pkg/types"
 )
 

@@ -17,8 +17,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/require"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/api/admin"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/acl"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/api/admin"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/acl"
 )
 
 func TestACLUserCommands(t *testing.T) {

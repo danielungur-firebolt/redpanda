@@ -12,9 +12,9 @@ package cmd
 import (
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/redpanda"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/config"
-	rp "github.com/vectorizedio/redpanda/src/go/rpk/pkg/redpanda"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/redpanda"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/config"
+	rp "github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/redpanda"
 )
 
 func NewRedpandaCommand(

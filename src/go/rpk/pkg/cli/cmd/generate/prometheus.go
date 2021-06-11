@@ -17,9 +17,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/config"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/kafka"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/config"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/kafka"
 	"gopkg.in/yaml.v2"
 )
 

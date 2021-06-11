@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/vcloud"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/vcloud"
 )
 
 func TestLogin(t *testing.T) {

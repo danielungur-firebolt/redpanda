@@ -15,8 +15,8 @@ import (
 
 	"github.com/go-logr/logr"
 	cmmetav1 "github.com/jetstack/cert-manager/pkg/apis/meta/v1"
-	redpandav1alpha1 "github.com/vectorizedio/redpanda/src/go/k8s/apis/redpanda/v1alpha1"
-	"github.com/vectorizedio/redpanda/src/go/k8s/pkg/resources"
+	redpandav1alpha1 "github.com/danielungur-firebolt/redpanda/src/go/k8s/apis/redpanda/v1alpha1"
+	"github.com/danielungur-firebolt/redpanda/src/go/k8s/pkg/resources"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"
 	k8sclient "sigs.k8s.io/controller-runtime/pkg/client"

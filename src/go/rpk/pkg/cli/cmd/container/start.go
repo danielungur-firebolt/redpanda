@@ -21,11 +21,11 @@ import (
 	"github.com/docker/docker/api/types"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/container/common"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/ui"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/config"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/kafka"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/net"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/container/common"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/ui"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/config"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/kafka"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/net"
 	"golang.org/x/sync/errgroup"
 )
 

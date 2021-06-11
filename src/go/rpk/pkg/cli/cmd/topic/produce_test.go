@@ -18,7 +18,7 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/topic"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/topic"
 )
 
 type mockSyncProducer struct {

@@ -17,8 +17,8 @@ import (
 	"github.com/spf13/afero"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/config"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/config"
 )
 
 func TestSetCmd(t *testing.T) {

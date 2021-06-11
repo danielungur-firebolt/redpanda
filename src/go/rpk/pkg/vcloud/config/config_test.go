@@ -13,7 +13,7 @@ import (
 	"testing"
 
 	"github.com/spf13/afero"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/vcloud/config"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/vcloud/config"
 )
 
 func TestReadWriteToken(t *testing.T) {

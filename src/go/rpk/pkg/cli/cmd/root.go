@@ -21,9 +21,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/common"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/config"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/common"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/config"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

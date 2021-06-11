@@ -17,9 +17,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/vcloud/config"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/vcloud/ui"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/vcloud/yak"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/vcloud/config"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/vcloud/ui"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/vcloud/yak"
 )
 
 func NewNamespacesCommand(fs afero.Fs) *cobra.Command {

@@ -14,10 +14,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/api/admin"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/ui"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/config"
-	vtls "github.com/vectorizedio/redpanda/src/go/rpk/pkg/tls"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/api/admin"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/ui"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/config"
+	vtls "github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/tls"
 )
 
 const (

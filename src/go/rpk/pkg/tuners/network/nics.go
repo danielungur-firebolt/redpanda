@@ -13,7 +13,7 @@ import (
 	"fmt"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/tuners/irq"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/tuners/irq"
 )
 
 func getDefaultMode(

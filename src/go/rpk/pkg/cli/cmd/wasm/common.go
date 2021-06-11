@@ -6,7 +6,7 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/cespare/xxhash"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/kafka"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/kafka"
 )
 
 /**

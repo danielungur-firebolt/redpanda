@@ -1,4 +1,4 @@
-module github.com/vectorizedio/redpanda/src/go/rpk
+module github.com/danielungur-firebolt/redpanda/src/go/rpk
 
 require (
 	cloud.google.com/go v0.26.0

@@ -13,8 +13,8 @@ import (
 	"fmt"
 
 	"github.com/spf13/afero"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/tuners/disk"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/tuners/irq"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/tuners/disk"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/tuners/irq"
 )
 
 func CreateDirectoryCheckers(

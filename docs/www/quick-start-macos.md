@@ -25,7 +25,7 @@ You can install `rpk` on MacOS from either with [Homebrew](https://brew.sh/) or 
 - To install `rpk` with Homebrew, run: `brew install vectorizedio/tap/redpanda`
 - To download the `rpk` binary:
 
-    1. Download the [rpk archive](https://github.com/vectorizedio/redpanda/releases/latest/download/rpk-darwin-amd64.zip) with: `curl -LO https://github.com/vectorizedio/redpanda/releases/latest/download/rpk-darwin-amd64.zip`
+    1. Download the [rpk archive](https://github.com/danielungur-firebolt/redpanda/releases/latest/download/rpk-darwin-amd64.zip) with: `curl -LO https://github.com/danielungur-firebolt/redpanda/releases/latest/download/rpk-darwin-amd64.zip`
     1. Unpack the archive to `/usr/local/bin` or any location in your `$PATH` with: `unzip rpk-darwin-amd64.zip`
 
 ### Running a redpanda cluster

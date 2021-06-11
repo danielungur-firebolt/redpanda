@@ -17,8 +17,8 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/avast/retry-go"
 	log "github.com/sirupsen/logrus"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/config"
-	vtls "github.com/vectorizedio/redpanda/src/go/rpk/pkg/tls"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/config"
+	vtls "github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/tls"
 )
 
 func DefaultConfig() *sarama.Config {

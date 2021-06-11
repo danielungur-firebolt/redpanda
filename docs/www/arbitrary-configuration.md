@@ -12,7 +12,7 @@ The Cluster definition includes parameters that are commonly needed to configure
 Cluster. However, Redpanda offers a broad range of parameters ([Custom configuration](/docs/custom-configuration)) not all of which are included in the Cluster definition.
 
 For this reason, we introduced a parameter `additionalConfiguration` that allows you to include
-arbitrary configuration parameters not included in the CR. For example, consider the `single-node` sample found in [our sample files](https://github.com/vectorizedio/redpanda/tree/dev/src/go/k8s/config/samples) with `additionalConfiguration` added: 
+arbitrary configuration parameters not included in the CR. For example, consider the `single-node` sample found in [our sample files](https://github.com/danielungur-firebolt/redpanda/tree/dev/src/go/k8s/config/samples) with `additionalConfiguration` added:
 
 ## Sample configuration
 

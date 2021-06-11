@@ -15,8 +15,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	redpandav1alpha1 "github.com/vectorizedio/redpanda/src/go/k8s/apis/redpanda/v1alpha1"
-	res "github.com/vectorizedio/redpanda/src/go/k8s/pkg/resources"
+	redpandav1alpha1 "github.com/danielungur-firebolt/redpanda/src/go/k8s/apis/redpanda/v1alpha1"
+	res "github.com/danielungur-firebolt/redpanda/src/go/k8s/pkg/resources"
 	v1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
@@ -136,7 +136,7 @@ func stsFromCluster(pandaCluster *redpandav1alpha1.Cluster) *v1.StatefulSet {
 				Spec: corev1.PodSpec{
 					InitContainers: []corev1.Container{{
 						Name:  "redpanda-configurator",
-						Image: "vectorized/configurator:latest",
+						Image: "danielungur/panda-configurator:latest",
 						Resources: corev1.ResourceRequirements{
 							Limits:   pandaCluster.Spec.Resources.Limits,
 							Requests: pandaCluster.Spec.Resources.Requests,

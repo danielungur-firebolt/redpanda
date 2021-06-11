@@ -105,13 +105,13 @@ helm install \
     export VERSION=v21.4.15
     ```
 
-    **_注意_** - 您可以在[operator版本列表](https://github.com/vectorizedio/redpanda/releases)中找到operator的最新版本号。
+    **_注意_** - 您可以在[operator版本列表](https://github.com/danielungur-firebolt/redpanda/releases)中找到operator的最新版本号。
 
 3. 安装Redpanda operator CRD：
 
     ```
     kubectl apply \
-    -k https://github.com/vectorizedio/redpanda/src/go/k8s/config/crd?ref=$VERSION
+    -k https://github.com/danielungur-firebolt/redpanda/src/go/k8s/config/crd?ref=$VERSION
     ```
 
 4. 使用以下命令在您的Kubernetes cluster上安装Redpanda operator：
@@ -136,7 +136,7 @@ helm install \
     kubectl create ns chat-with-me
     ```
 
-2. 从[我们的样本文件](https://github.com/vectorizedio/redpanda/tree/dev/src/go/k8s/config/samples)安装cluster，例如单节点cluster：
+2. 从[我们的样本文件](https://github.com/danielungur-firebolt/redpanda/tree/dev/src/go/k8s/config/samples)安装cluster，例如单节点cluster：
                 
     ```
     kubectl apply \
@@ -144,7 +144,7 @@ helm install \
     -f https://raw.githubusercontent.com/vectorizedio/redpanda/dev/src/go/k8s/config/samples/one_node_cluster.yaml
     ```
 
-    您可以在[cluster_types文件](https://github.com/vectorizedio/redpanda/blob/dev/src/go/k8s/apis/redpanda/v1alpha1/cluster_types.go)中查看资源配置选项。
+    您可以在[cluster_types文件](https://github.com/danielungur-firebolt/redpanda/blob/dev/src/go/k8s/apis/redpanda/v1alpha1/cluster_types.go)中查看资源配置选项。
 
 3.使用`rpk`来处理Redpanda节点，例如：
 

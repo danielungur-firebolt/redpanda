@@ -129,7 +129,7 @@ func (a *adminAPI) ListUsers() ([]string, error) {
 // means that some requests (such as the ones made to /users) will fail unless
 // the reached node is the leader. Therefore, a request needs to be made to
 // each node, and of those requests at least one should succeed.
-// FIXME (@david): when https://github.com/vectorizedio/redpanda/issues/1265
+// FIXME (@david): when https://github.com/danielungur-firebolt/redpanda/issues/1265
 // is fixed.
 func sendToMultiple(
 	urls []string, method string, body interface{}, client *http.Client,

@@ -91,5 +91,5 @@ jobs:
           issue-number: ${{ github.event.client_payload.pull_request.number }}
           body: |
             Chaos test status: ${{ steps.run-tests.conclusion }}
-            Run: https://github.com/vectorizedio/redpanda/actions/runs/${{ github.run_id }}
+            Run: https://github.com/danielungur-firebolt/redpanda/actions/runs/${{ github.run_id }}
         if: always() && github.event.action == 'chaos-test-command'

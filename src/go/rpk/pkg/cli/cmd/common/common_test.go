@@ -18,9 +18,9 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/require"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/common"
-	ccommon "github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/container/common"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/config"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/common"
+	ccommon "github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/container/common"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/config"
 )
 
 func TestDeduceBrokers(t *testing.T) {

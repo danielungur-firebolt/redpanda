@@ -15,9 +15,9 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/vectorizedio/redpanda/src/go/k8s/apis/redpanda/v1alpha1"
-	"github.com/vectorizedio/redpanda/src/go/k8s/controllers/redpanda"
-	res "github.com/vectorizedio/redpanda/src/go/k8s/pkg/resources"
+	"github.com/danielungur-firebolt/redpanda/src/go/k8s/apis/redpanda/v1alpha1"
+	"github.com/danielungur-firebolt/redpanda/src/go/k8s/controllers/redpanda"
+	res "github.com/danielungur-firebolt/redpanda/src/go/k8s/pkg/resources"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	v1 "k8s.io/api/rbac/v1"

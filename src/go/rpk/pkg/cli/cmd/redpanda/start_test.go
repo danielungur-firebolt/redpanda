@@ -18,9 +18,9 @@ import (
 	"github.com/spf13/afero"
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/require"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/config"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/redpanda"
-	rp "github.com/vectorizedio/redpanda/src/go/rpk/pkg/redpanda"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/config"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/redpanda"
+	rp "github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/redpanda"
 )
 
 type noopLauncher struct {

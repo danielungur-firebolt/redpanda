@@ -18,8 +18,8 @@ import (
 
 	"github.com/go-logr/logr"
 	cmetav1 "github.com/jetstack/cert-manager/pkg/apis/meta/v1"
-	redpandav1alpha1 "github.com/vectorizedio/redpanda/src/go/k8s/apis/redpanda/v1alpha1"
-	"github.com/vectorizedio/redpanda/src/go/k8s/pkg/labels"
+	redpandav1alpha1 "github.com/danielungur-firebolt/redpanda/src/go/k8s/apis/redpanda/v1alpha1"
+	"github.com/danielungur-firebolt/redpanda/src/go/k8s/pkg/labels"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
@@ -36,9 +36,10 @@ var _ Resource = &StatefulSetResource{}
 var errNodePortMissing = errors.New("the node port is missing from the service")
 
 const (
+
 	redpandaContainerName      = "redpanda"
 	configuratorContainerName  = "redpanda-configurator"
-	configuratorContainerImage = "vectorized/configurator"
+	configuratorContainerImage = "danielungur/panda-configurator"
 
 	userID  = 101
 	groupID = 101

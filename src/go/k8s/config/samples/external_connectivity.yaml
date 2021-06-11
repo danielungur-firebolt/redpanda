@@ -20,10 +20,12 @@ spec:
      - port: 9092
      - external:
          enabled: true
+         subdomain: local.firebolt.io
     pandaproxyApi:
      - port: 8082
      - external:
          enabled: true
+         subdomain: local.firebolt.io
     adminApi:
     - port: 9644
     developerMode: true

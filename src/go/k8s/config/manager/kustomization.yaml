@@ -11,6 +11,6 @@ configMapGenerator:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- name: vectorized/redpanda-operator
-  newName: vectorized/redpanda-operator
+- name: danielungur/redpanda-operator
+  newName: danielungur/redpanda-operator
   newTag: latest

@@ -20,7 +20,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/afero"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/os"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/os"
 )
 
 const reachMask int64 = 1

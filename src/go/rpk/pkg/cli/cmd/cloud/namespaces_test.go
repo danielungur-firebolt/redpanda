@@ -16,8 +16,8 @@ import (
 	"testing"
 
 	"github.com/sirupsen/logrus"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/cloud"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/vcloud/yak"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/cloud"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/vcloud/yak"
 )
 
 func TestNamespaces(t *testing.T) {

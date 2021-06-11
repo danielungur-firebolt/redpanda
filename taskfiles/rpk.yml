@@ -13,8 +13,8 @@ tasks:
     cmds:
     - mkdir -p "{{.BUILD_ROOT}}/go/$GOOS/bin"
     - |
-      ver_pkg='github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/version'
-      cont_pkg='github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/container/common'
+      ver_pkg='github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/version'
+      cont_pkg='github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/container/common'
       go build \
         -modcacherw \
         -ldflags \

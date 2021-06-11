@@ -18,9 +18,9 @@ import (
 	"github.com/Shopify/sarama"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/cmd/common"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/ui"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/kafka"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/cmd/common"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/ui"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/kafka"
 )
 
 func NewDescribeCommand(

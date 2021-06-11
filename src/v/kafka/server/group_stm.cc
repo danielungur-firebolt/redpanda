@@ -47,7 +47,7 @@ void group_stm::update_prepared(
           .metadata = tx_offset.metadata.value_or(""),
         };
         // BUG: support leader_epoch (KIP-320)
-        // https://github.com/vectorizedio/redpanda/issues/1181
+        // https://github.com/danielungur-firebolt/redpanda/issues/1181
         prepared_it->second.offsets[tx_offset.tp] = md;
     }
 }

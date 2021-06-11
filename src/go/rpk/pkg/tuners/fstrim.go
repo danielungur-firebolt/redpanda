@@ -14,10 +14,10 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/spf13/afero"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/os"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/system/systemd"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/tuners/executors"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/tuners/executors/commands"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/os"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/system/systemd"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/tuners/executors"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/tuners/executors/commands"
 )
 
 const (

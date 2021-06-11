@@ -10,8 +10,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/require"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/kafka"
-	kafkaMocks "github.com/vectorizedio/redpanda/src/go/rpk/pkg/kafka/mocks"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/kafka"
+	kafkaMocks "github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/kafka/mocks"
 )
 
 type fileInfo struct {

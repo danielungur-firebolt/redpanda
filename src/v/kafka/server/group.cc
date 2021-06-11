@@ -1840,7 +1840,7 @@ group::handle_offset_fetch(offset_fetch_request&& r) {
               .error_code = error_code::none,
             };
             // BUG: support leader_epoch (KIP-320)
-            // https://github.com/vectorizedio/redpanda/issues/1181
+            // https://github.com/danielungur-firebolt/redpanda/issues/1181
             tmp[e.first.topic].push_back(std::move(p));
         }
         for (auto& e : tmp) {

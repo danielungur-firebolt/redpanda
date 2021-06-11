@@ -15,8 +15,8 @@ import (
 
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/require"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/tuners/ethtool"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/tuners/irq"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/tuners/ethtool"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/tuners/irq"
 )
 
 type procFileMock struct {

@@ -1,11 +1,11 @@
 
 # Image URL to use all building/pushing image targets
 TAG_NAME ?= "latest"
-OPERATOR_IMG ?= vectorized/redpanda-operator
+OPERATOR_IMG ?= danielungur/redpanda-operator
 OPERATOR_IMG_LATEST ?= "${OPERATOR_IMG}:latest"
 OPERATOR_IMG_DEV ?= "${OPERATOR_IMG}:dev"
 OPERATOR_IMG_RELEASE ?= "${OPERATOR_IMG}:${TAG_NAME}"
-CONFIGURATOR_IMG ?= vectorized/configurator
+CONFIGURATOR_IMG ?= danielungur/panda-configurator
 CONFIGURATOR_IMG_LATEST ?= "${CONFIGURATOR_IMG}:latest"
 CONFIGURATOR_IMG_DEV ?= "${CONFIGURATOR_IMG}:dev"
 CONFIGURATOR_IMG_RELEASE ?= "${CONFIGURATOR_IMG}:${TAG_NAME}"
@@ -52,7 +52,7 @@ uninstall: manifests kustomize
 
 # Deploy controller in the configured Kubernetes cluster in ~/.kube/config
 deploy: manifests kustomize
-	cd config/manager && $(KUSTOMIZE) edit set image vectorized/redpanda-operator=${OPERATOR_IMG_LATEST}
+	cd config/manager && $(KUSTOMIZE) edit set image danielungur/redpanda-operator=${OPERATOR_IMG_LATEST}
 	$(KUSTOMIZE) build config/default | kubectl apply -f -
 
 # Deploy pre loaded controller in the configured Kind Kubernetes cluster

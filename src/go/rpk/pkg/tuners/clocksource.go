@@ -14,8 +14,8 @@ import (
 	"strings"
 
 	"github.com/spf13/afero"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/tuners/executors"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/tuners/executors/commands"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/tuners/executors"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/tuners/executors/commands"
 )
 
 const prefferedClkSource = "tsc"

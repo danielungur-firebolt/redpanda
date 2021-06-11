@@ -17,7 +17,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/kafka/mocks"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/kafka/mocks"
 )
 
 func TestNewDeleteACLsCommand(t *testing.T) {

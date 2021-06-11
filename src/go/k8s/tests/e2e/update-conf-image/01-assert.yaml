@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       initContainers:
-        - image: "vectorized/configurator:v21.4.11"
+        - image: "danielungur/panda-configurator:v21.4.11"
       containers:
         - image: "vectorized/redpanda:latest"
 status:

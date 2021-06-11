@@ -90,7 +90,7 @@ We'll use Helm to install cert-manager:
 
   ```
   VERSION=v21.4.15
-  kubectl apply -k 'https://github.com/vectorizedio/redpanda/src/go/k8s/config/crd?ref=$VERSION'
+  kubectl apply -k 'https://github.com/danielungur-firebolt/redpanda/src/go/k8s/config/crd?ref=$VERSION'
   helm repo add redpanda https://charts.vectorized.io/ && \
   helm repo update && \
   helm install \

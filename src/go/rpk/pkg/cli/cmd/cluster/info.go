@@ -18,7 +18,7 @@ import (
 	"github.com/Shopify/sarama"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/vectorizedio/redpanda/src/go/rpk/pkg/cli/ui"
+	"github.com/danielungur-firebolt/redpanda/src/go/rpk/pkg/cli/ui"
 )
 
 type node struct {

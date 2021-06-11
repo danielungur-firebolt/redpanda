@@ -187,7 +187,7 @@ func (r *StatefulSetResource) queryRedpandaStatus(
 
 	// TODO right now we support TLS only on one listener so if external
 	// connectivity is enabled, TLS is enabled only on external listener. This
-	// will be fixed by https://github.com/vectorizedio/redpanda/issues/1084
+	// will be fixed by https://github.com/danielungur-firebolt/redpanda/issues/1084
 	if r.pandaCluster.AdminAPITLS() != nil &&
 		r.pandaCluster.AdminAPIExternal() == nil {
 		tlsConfig := tls.Config{MinVersion: tls.VersionTLS12} // TLS12 is min version allowed by gosec.
